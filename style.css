@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  background-color: ;
+  justify-content: space-between;
+  padding: 0 2em;
+  align-items: center;
+  background-color: #72a0c1;
+}
+
+.header > a {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.homepage {
+  display: block;
+  width: 100%;
+}
+
+.login-form {
+  padding: 10px;
+  margin: auto;
+  width: 25%;
+  background-color: white;
+}
+
+body {
+  background-color: #b9d9eb;
+}
+
+a:visited {
+  color: #241571;
+}
+
+a:focus {
+  background-color: #f0f8ff;
+}
+
+a:hover {
+  background-color: #f0f8ff;
+}
